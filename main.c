@@ -2,6 +2,11 @@
 main()
 {
   printf("hello...\n");
-  return;
+  
+  
   printf("hi...\n");
+  int x=0,y=0;
+  
+  printf("%d ",x+y);
+  return;  
 }
