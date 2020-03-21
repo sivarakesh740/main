@@ -1,0 +1,23 @@
+#include<stdio.h>
+main()
+{
+int b,i,c,temp,arm=0,r1,r2;
+printf("r1=");
+scanf("%d",&r1);
+printf("r2=");
+scanf("%d",&r2);
+for(i=r1;i<=r2;i++)
+{
+temp=i;
+b=i;
+arm=0;
+while(b)
+{
+c=b%10;
+arm=arm+(c*c*c);
+b=b/10;
+}
+if(arm==temp)
+printf("%d\n",i);
+}
+}
